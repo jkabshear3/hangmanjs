@@ -145,7 +145,6 @@ return false;}};
       this.state.isGameWon
       ?
       <div style={{background: 'grey', textAlign: 'center', borderRadius: "30px"}}>
-        <h1>{this.state.wordDef}</h1>
         <GameOver playAgain={this.onRestart} word={this.state.wordInput}definition={this.state.wordDef}/> 
         <WordInputEnd guessedLetters={this.state.guessedLetters}hiddenWord={this.state.wordInput}/>
       </div>
