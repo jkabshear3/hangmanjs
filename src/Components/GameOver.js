@@ -3,7 +3,7 @@ import React from 'react'
 function GameOver({ word, definition, playAgain }) {
 	return (
 		<div className="spin" style={{textAlign: "center"}}>
-			{/*<video src={require('./msVid.mp4')} controls autoPlay />*/}
+		
 			{<div>
 				<button className='grow' style={{
 				outline: 'none',
